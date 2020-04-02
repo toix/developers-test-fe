@@ -46,7 +46,7 @@ module.exports = (env, argv) => {
                     test: /\.(sa|sc|c)ss$/,
                     use: [
                         {
-                            loader: mode === 'development' ? 'style-loader' : MiniCssExtractPlugin.loader,
+                            loader: MiniCssExtractPlugin.loader,
                             options: {
                                 sourceMap: true,
                                 indentedSyntax: true
