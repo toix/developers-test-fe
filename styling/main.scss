@@ -6,3 +6,13 @@
     cursor: pointer;
   }
 }
+
+.gallery-modal {
+  .close {
+    height: 0;
+    z-index: 100;
+    @media (min-width: 768px) {
+      height: auto;
+    }
+  }
+}
