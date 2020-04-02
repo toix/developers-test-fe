@@ -43,19 +43,19 @@ export function show_image_dialog(image_div, id) {
     let get_img_and_comment = make_xhr('https://boiling-refuge-66454.herokuapp.com/images/'+ id);
     get_img_and_comment.then((image) => {
         let modal_content = '<div class="row">';
-        modal_content += `<div class="col-md-7 mb-2">
+        modal_content += `<div class="col-lg-7 mb-2">
                             <img src="${image.url}" data-id="${image.id}" alt="image ${image.id}" class="img-fluid">
                           </div>`;
         for (const [idx, comment] of image.comments.entries()) {
             const date = new Date(comment.date).toLocaleString();
             modal_content +=
-                `<div class="col-md-5 px-4 px-md-3">
+                `<div class="col-lg-5 px-4 px-md-3">
                   <div class="text-muted">${date}</div>
                   <div class="">${comment.text}</div>
                 </div>`;
         }
 
-        modal_content += `<div class="col-md-7 px-4 px-md-3"><div class="form-group mt-2">
+        modal_content += `<div class="col-lg-7 px-4 px-md-3"><div class="form-group mt-2">
                             <input id="name-${id}" title="name" placeholder="Your name" class="form-control gallery-name">
                             </div>
                             <div class="form-group">

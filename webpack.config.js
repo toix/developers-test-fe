@@ -34,8 +34,8 @@ module.exports = (env, argv) => {
             new MiniCssExtractPlugin({
                 // Options similar to the same options in webpackOptions.output
                 // both options are optional
-                filename: "public/[name].css",
-                chunkFilename: "public/[id].css"
+                filename: "./public/[name].css",
+                chunkFilename: "./public/[id].css"
             })
         ],
         // https://github.com/webpack-contrib/mini-css-extract-plugin/blob/master/README.md
