@@ -44,7 +44,7 @@ export function show_image_dialog(image_div, id) {
     get_img_and_comment.then((image) => {
         let modal_content = '<div class="row">';
         modal_content += `<div class="col-lg-7 mb-2">
-                            <img src="${image.url}" data-id="${image.id}" alt="image ${image.id}" class="img-fluid">
+                            <img src="${image.url}" data-id="${image.id}" alt="image ${image.id}" class="img-fluid w-100">
                           </div>`;
         for (const [idx, comment] of image.comments.entries()) {
             const date = new Date(comment.date).toLocaleString();
