@@ -1,6 +1,8 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/toix/developers-test-fe) 
+
 # README #
 
-It is test-task on position Frontend-developer in Neuffer Fenster + Türen GmbH company
+It is test-task on position Frontend-developer in Neuffer Fenster + Tï¿½ren GmbH company
 
 ### Main task ###
 
