@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "~1.2.28",
     "@fortawesome/free-solid-svg-icons": "~5.13.0",
     "animate.css": "~3.7.2",
-    "axios": "~0.19.2",
+    "axios": "~0.21.1",
     "webpack": "~4.42.1",
     "webpack-cli": "~3.3.11",
     "babel-loader": "~8.1.0",
